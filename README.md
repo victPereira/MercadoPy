@@ -23,15 +23,4 @@ Para começar com o Vorium Shop, você precisará seguir estes passos:
 4. Executar o arquivo main.py usando o seguinte comando: `python main.py`.
 5. Seguir as instruções na tela para cadastrar produtos, adicionar produtos ao carrinho, concluir pedidos e sair do sistema.
 
-## O programa utiliza as seguintes bibliotecas:
--tkinter e ttk: para construir a interface gráfica.
--PIL: para abrir e manipular imagens.
--tkscrolledframe: para criar uma área rolável dentro da janela.
--requests e json: para fazer a requisição HTTP e tratar a resposta JSON
 
-##Interface Gráfica
-A interface gráfica é construída usando a biblioteca tkinter. A janela principal tem o tamanho de 350x415 pixels e não pode ser redimensionada. Ela é composta por três frames:
-
--O frame superior contém o logo e o nome do dicionário.
--O frame do meio contém um campo de entrada para a palavra a ser pesquisada.
--O frame inferior contém a lista de significados retornados pela API.
